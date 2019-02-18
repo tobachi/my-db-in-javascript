@@ -1,0 +1,22 @@
+{
+  "name": "tobachi-my-db-in-javascript",
+  "version": "1.0.0",
+  "description": "spark joy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobachi/my-db-in-javascript.git"
+  },
+  "keywords": [
+    "database"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobachi/my-db-in-javascript/issues"
+  },
+  "homepage": "https://github.com/tobachi/my-db-in-javascript#readme"
+}
