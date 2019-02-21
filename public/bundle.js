@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -93,18 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
-/***/ 0:
-/*!****************************!*\
-  !*** multi ./src/index.js ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__(/*! ./src/index.js */\"./src/index.js\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js?");
+eval("function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction create(name, columns) {\n  return new table(name, columns);\n}\n\nvar table =\n/*#__PURE__*/\nfunction () {\n  function table(name, columns) {\n    _classCallCheck(this, table);\n\n    this.taples = [];\n    this.name = name;\n    this.columns = columns;\n  }\n\n  _createClass(table, [{\n    key: \"select\",\n    value: function select(params) {\n      return params == '*' ? this.taples : '';\n    }\n  }, {\n    key: \"insert\",\n    value: function insert(params) {\n      this.taples.add(params);\n    }\n  }]);\n\n  return table;\n}();\n\nvar person = create('person', ['id', 'name', 'age']);\nperson.insert(['1', 'Tanaka', '20']);\nperson.insert(['2', 'Sato', '30']);\nperson.insert(['3', 'Suzuki', '40']);\nconsole.log(person.select('*'));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
