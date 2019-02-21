@@ -10,7 +10,7 @@ class table {
   }
 
   insert(params) {
-    this.taples.add(...params)
+    this.taples.push(...params)
   }
 
 }
